@@ -15,7 +15,7 @@ function onFormSubmit(e) {
   const formLength = e.currentTarget.elements.length - 1;
 
   if (Object.keys(formData).length !== formLength) {
-    alert('Fill all fields');
+    alert('Not all fields are filled');
     return;
   }
 
